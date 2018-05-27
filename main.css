@@ -220,6 +220,7 @@ li {
     margin-bottom: 1rem;
     margin-left: 5%;
     margin-right: 5%;
+
 }
 .box {
     text-align: center;
@@ -236,6 +237,7 @@ li {
 }
 .box img {
     margin-top: 1rem;
+    width: 60%
 }
 .box:hover {
     background:#FBFAFA;
@@ -251,7 +253,7 @@ li {
     flex-direction: row;
     justify-content: space-evenly;
 }
-.about-us-countainer-person {
+.about-us-container-person {
     width: 100%;
     height: 560px;
     margin-bottom: 100px;
@@ -269,21 +271,21 @@ li {
     margin-bottom: 20px;
     transition: all 0.4s ease-in-out ;
 }
-.about-us-countainer-person:hover .person-img {
+.about-us-container-person:hover .person-img {
     transform: scale(1.1);
 }
-.about-us-countainer-person h1 {
+.about-us-container-person h1 {
     text-align: center;
     font-size: 28px;
     margin-left: 20px;
     margin-right: 20px;
 }
-.about-us-countainer-person p {
+.about-us-container-person p {
     font-size: 14px;
     margin: 20px 10px 10px 10px;
     text-align: center;
 }
-.social-ikons {
+.social-icons {
     display: flex;
     position: absolute;
     bottom: 0;
@@ -294,10 +296,10 @@ li {
     transition: all 0.4s ease-in-out ;
     padding-bottom: 5px;
 }
-.about-us-countainer-person:hover .social-ikons {
+.about-us-container-person:hover .social-icons {
     opacity: 1;
 }
-.about-us-countainer-person:hover {
+.about-us-container-person:hover {
     -moz-box-shadow:    inset 0 0 15px #8C8982;
     -webkit-box-shadow: inset 0 0 15px #8C8982;
     box-shadow:         inset 0 0 15px #8C8982;
